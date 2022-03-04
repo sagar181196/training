@@ -1,0 +1,24 @@
+1. git init [repository name] : to make new repository
+    Ex : git init document/training/test.py
+2. git clone url : to make link 
+    Ex : git clone https://github.com/sagar181196/training.git
+3. git add file_name : to add file to staging area
+    Ex : git add test.py
+4. git commit -m "comment" : to
+    Ex : git commit -m "terminal added"
+5. git push : command sends the committed changes to your remote repository.
+    Ex : git push
+6. git rm [file] : used to delete files/folder
+    Ex : git rm training/test.py
+7. git stash : to undo deleted file
+    Ex : git stash 
+8. git branch [branch name] : to add subbranch
+    Ex : git branch training_1
+9. git branch -d [branch name] : to delete branch
+    Ex : git branch -d training_1
+10. git checkout [branch name] : to switch from one branch to another
+    Ex : git checkout training_1
+11. git checkout -b [branch name] : to create a new branch and also switches to it.
+    Ex : git checkout -b training_2
+12. git merge : merge 2 branches
+    Ex : 

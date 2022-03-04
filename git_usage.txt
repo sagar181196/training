@@ -20,5 +20,5 @@
     Ex : git checkout training_1
 11. git checkout -b [branch name] : to create a new branch and also switches to it.
     Ex : git checkout -b training_2
-12. git merge : merge 2 branches
-    Ex : 
+12. git merge : merge 2 branches (Switch to master branch)
+    Ex : git merge branch_name

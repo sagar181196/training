@@ -14,5 +14,11 @@ for y in range(int(N)):
     #     x.sort(reverse=True)  
     # elif action[0] == 'append':
     #     x.append(int(action[1]))
+weight_pound = input("weight pound : ")
+weight_kg = int(weight_pound)*0.45
+
+print('your weight in kg {}'.format(weight_kg))
+
+
    
     

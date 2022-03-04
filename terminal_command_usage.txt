@@ -1,0 +1,31 @@
+Commands:
+1. mkrdir : to make directory
+    Ex : mkdrir training
+2. mv : to move directory/file
+    Ex :  mv test.py training
+3. cp -r: copy file/folder
+    Ex : cp -r training/test.py training test2.py 
+4. rm -r : to delete file/folder
+    Ex : rm -r test.py
+5. ls : to list file/folder
+    Ex : ls training
+6. cd : to change directory
+    Ex : cd training
+7. clear : to clear the screen
+    Ex : clear
+8. python : you want to run you command line using terminal
+    Ex : python test.py
+9. open : to open file/folder
+    Ex : open test.py
+10. touch : to create new file
+    Ex : touch test.py
+11. exit : to exit from terminal
+    Ex : exit   
+12. cat : means concatenate, to show file
+    Ex : cat training/test.py
+13. | : is used to two or more commands
+    Ex : cat training/test.py | sort test.py
+14. sort : is used to sort file
+    Ex : sort test.py  
+15. ls -la : is used to files/folder details
+    Ex : ls -la              

@@ -24,6 +24,7 @@
     Ex : git merge branch_name
 13. git status : command lists all the files that have to be committed
     Ex : git status
-14. git diff : command shows the file differences which are not yet staged.
-    Ex : git diff
-
+14. git diff [first branch] [second branch] : command shows the file differences which are not yet staged.
+    Ex : git diff main training_2
+15. git log : command is used to list the version history for the current branch
+    Ex : git log

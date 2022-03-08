@@ -1,0 +1,75 @@
+ PROTOCOLS
+
+    Network Protocols are a set of rules governing exchange of information in an easy, reliable
+    and secure way.The most popular model used to establish open communication between two systems
+    is the Open Systems Interface (OSI) model proposed by ISO.
+
+
+OSI MODEL
+        OSI IS Open Systems Interface 
+    These are the seven layers of the OSI model.
+        1.Physical layer −It is the first layer that physically connects the two systems that need
+         to communicate. It transmits data in bits and manages simplex or duplex transmission by modem.
+         It also manages Network Interface Card’s hardware interface to the network, like cabling,
+         cable terminators, topography, voltage levels, etc.
+
+        2.Data link layer − It is the firmware layer of Network Interface Card. It assembles datagrams
+          into frames and adds start and stop flags to each frame. It also resolves problems caused by
+          damaged, lost or duplicate frames.
+
+        3.Network layer − It is concerned with routing, switching and controlling flow of information
+          between the workstations. It also breaks down transport layer datagrams into smaller datagrams.
+
+        4.Transport layer − Till the session layer, file is in its own form. Transport layer breaks it 
+          down into data frames, provides error checking at network segment level and prevents a fast
+          host from overrunning a slower one. Transport layer isolates the upper layers from network hardware.
+
+        5.Session layer − This layer is responsible for establishing a session between two workstations
+          that want to exchange data.
+
+        6.Presentation layer − This layer is concerned with correct representation of data, i.e. syntax
+          and semantics of information. It controls file level security and is also responsible for
+          converting data to network standards.
+
+        7.Application layer − It is the topmost layer of the network that is responsible for sending
+          application requests by the user to the lower levels. Typical applications include file transfer,
+          E-mail, remote logon, data entry, etc.
+
+
+TCP/IP-TCP/IP stands for Transmission Control Protocol/Internet Protocol.
+        TCP/IP is a set of layered protocols used for communication over the Internet. The communication
+        model of this suite is client-server model. A computer that sends a request is the client and a
+        computer to which the request is sent is the server.
+
+    TCP/IP has four layers −
+
+        1.Application layer − Application layer protocols like HTTP and FTP are used.
+
+        2.Transport layer − Data is transmitted in form of datagrams using the Transmission Control
+          Protocol (TCP). TCP is responsible for breaking up data at the client side and then reassembling
+          it on the server side.
+
+        3.Network layer − Network layer connection is established using Internet Protocol (IP) at the
+          network layer. Every machine connected to the Internet is assigned an address called IP address
+          by the protocol to easily identify source and destination machines.
+
+        4.Data link layer − Actual data transmission in bits occurs at the data link layer using the 
+          destination address provided by network layer.
+
+FTP->FTP stand for File Transfer Protocol
+    Using FTP to transfer files is helpful in these ways −
+    1.Easily transfers files between two different networks
+    2.Can resume file transfer sessions even if connection is dropped, if protocol is configure appropriately
+    3.Enables collaboration between geographically separated teams
+
+
+PPP->Point to Point Protocol or PPP is a data link layer protocol that enables transmission of TCP/IP traffic
+     over serial connection, like telephone line.
+
+    PPP defines these three things −
+    1.A framing method to clearly define end of one frame and start of another, incorporating errors detection
+     as well.
+    2.Link control protocol (LCP) for bringing communication lines up, authenticating and bringing them down
+     when no longer needed.
+    3.Network control protocol (NCP) for each network layer protocol supported by other networks.
+

@@ -1,0 +1,36 @@
+NETWORK PROTOCOLS
+
+    Network Protocols are a set of rules governing exchange of information in an easy, reliable
+    and secure way.The most popular model used to establish open communication between two systems
+    is the Open Systems Interface (OSI) model proposed by ISO.
+
+
+OSI MODEL
+        OSI IS Open Systems Interface 
+    These are the seven layers of the OSI model.
+        1.Physical layer −It is the first layer that physically connects the two systems that need
+         to communicate. It transmits data in bits and manages simplex or duplex transmission by modem.
+         It also manages Network Interface Card’s hardware interface to the network, like cabling,
+         cable terminators, topography, voltage levels, etc.
+
+        2.Data link layer − It is the firmware layer of Network Interface Card. It assembles datagrams
+          into frames and adds start and stop flags to each frame. It also resolves problems caused by
+          damaged, lost or duplicate frames.
+
+        3.Network layer − It is concerned with routing, switching and controlling flow of information
+          between the workstations. It also breaks down transport layer datagrams into smaller datagrams.
+
+        4.Transport layer − Till the session layer, file is in its own form. Transport layer breaks it 
+          down into data frames, provides error checking at network segment level and prevents a fast
+          host from overrunning a slower one. Transport layer isolates the upper layers from network hardware.
+
+        5.Session layer − This layer is responsible for establishing a session between two workstations
+          that want to exchange data.
+
+        6.Presentation layer − This layer is concerned with correct representation of data, i.e. syntax
+          and semantics of information. It controls file level security and is also responsible for
+          converting data to network standards.
+
+        7.Application layer − It is the topmost layer of the network that is responsible for sending
+          application requests by the user to the lower levels. Typical applications include file transfer,
+          E-mail, remote logon, data entry, etc.
